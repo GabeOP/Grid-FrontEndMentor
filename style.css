@@ -30,7 +30,7 @@ body{
     background-color: #7540C9;
     border-radius: 15px;
     grid-area: d;
-    background-image: url("/Testimonials Grid - Junior/images/bg-pattern-quotation.svg");
+    background-image: url("./images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
     background-position-x: 80%;
     background-size: 150px;
