@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d3e7ff;
+}
+
+.verified-graduate{
+    color: rgba(168, 168, 168, 0.705);
+    font-size: 13px;
+}
+
+#container{
+    display: grid;
+    width: 1440px;
+    padding-top: 100px;
+    margin: auto;
+    gap: 20px;
+    grid-template-areas: "d d d jo k"
+                         "j p p p k"
+}
+
+#daniel-container{
+    background-color: #7540C9;
+    border-radius: 15px;
+    grid-area: d;
+    background-image: url("/Testimonials Grid - Junior/images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-size: 150px;
+}
+
+#daniel-top, #patrick-top{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#jeanette-top, #kira-top, #jonathan-top{
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+
+#daniel-info, #jonathan-info, #jeanette-info, #patrick-info, #kira-info{
+    margin-left: 20px;
+    line-height: 6px;
+}
+
+.name{
+    color: white;
+}
+
+#daniel-top img{
+    border-radius: 50%;
+    border: 3px #af7dff solid;
+}
+
+#daniel-text-container, #jonathan-text-container, #patrick-text-container, #jeanette-text-container, #kira-text-container{
+    width: 85%;
+    margin: auto;
+}
+#daniel-text, #jonathan-text, #patrick-text{
+    color: white;
+    font-size: 26px;
+}
+
+#jeanette-text, #kira-text{
+    color: black;
+    font-size: 26px;
+}
+
+#daniel-text2, #jonathan-text2, #jeanette-text2, #patrick-text2, #kira-text2{
+    font-size: 18px;
+    color: rgba(175, 175, 175, 0.788);
+    font-weight: 500;
+}
+
+
+#jonathan-container{
+    background-color: #49556B;
+    border-radius: 15px;
+    grid-area: jo;
+}
+
+#jonathan-top img{
+    border-radius: 50%;
+    border: 3px #869abe solid;
+}
+
+#jeanette-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    grid-area: j;
+}
+
+#jeanette-top img{
+    border-radius:50%;
+    border: 3px solid rgba(0, 0, 0, 0.671);
+}
+
+#patrick-container{
+    grid-area: p;
+    background-color: #18202D;
+    border-radius: 15px;
+}
+
+#patrick-container img{
+    border-radius: 50%;
+    border: #4d5f7c 3px solid;
+}
+
+#kira-container{
+    grid-area: k;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#kira-top img{
+    border-radius:50%;
+    border: 3px solid rgba(0, 0, 0, 0.671);
+}
+
+@media screen and (max-width: 800px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
