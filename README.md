@@ -1,4 +1,6 @@
 # Grid FrontEndMentor
- Projeto feito para treinar display grid e responsivo 
+ Projeto feito para treinar display grid e responsividade
 
-https://frontendmentor-grid.netlify.app
+Como ficou: https://frontendmentor-grid.netlify.app
+
+Original: https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7
